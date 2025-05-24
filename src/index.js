@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true })
 exports.fibonacci = fibonacci
 function fibonacci(num) {
-    console.log("Fibonacci called with", num)
+    console.log("Fibonacci called swith", num)
     if (num < 0) {
         return null
     }
