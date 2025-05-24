@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc -p .",
     "test": "jest --coverage",
-    "tslint": "tslint -t json -o tslint-report.json --project . --force"
+    "tslint": "tslint -t json -o tslint-report.json --project . --force",
+    "tslint:report": "tslint -t json -o tslint-report.json --project . --force"
   },
   "author": "",
   "license": "ISC",

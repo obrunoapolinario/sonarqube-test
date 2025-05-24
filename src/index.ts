@@ -20,7 +20,7 @@ export function greet2(name: string) {
     }
 }
 
-export function greet3(name: string) {
+export function greet(name: string) {
     if (name === "") {
         console.log("Olá, visitante!")
     } else {
