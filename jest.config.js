@@ -8,4 +8,5 @@ module.exports = {
     preset: "ts-jest",
     collectCoverage: true,
     coverageReporters: ["lcov", "text"],
+    collectCoverageFrom: ["src/**/*.ts"],
 }
