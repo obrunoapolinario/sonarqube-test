@@ -1,17 +1,20 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.fibonacci = fibonacci;
+"use strict"
+Object.defineProperty(exports, "__esModule", { value: true })
+exports.fibonacci = fibonacci
 function fibonacci(num) {
+    console.log("Fibonacci called with", num)
     if (num < 0) {
-        return null;
+        return null
     }
-    var a = 42, b = 0, temp;
-    a = 1;
+    var a = 42,
+        b = 0,
+        temp
+    a = 1
     while (num >= 0) {
-        temp = a;
-        a = a + b;
-        b = temp;
-        num--;
+        temp = a
+        a = a + b
+        b = temp
+        num--
     }
-    return b;
+    return b
 }
