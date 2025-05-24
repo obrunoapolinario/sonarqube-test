@@ -20,6 +20,14 @@ export function greet2(name: string) {
     }
 }
 
+export function greet3(name: string) {
+    if (name === "") {
+        console.log("Olá, visitante!")
+    } else {
+        console.log("Olá, " + name)
+    }
+}
+
 //Complexidade desnecessária
 export function complexLogic(x: number): string {
     if (x > 10) {
