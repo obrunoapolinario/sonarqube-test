@@ -16,7 +16,7 @@ jobs:
             - name: Install dependencies
               run: npm install
             - name: Run tests with coverage
-              run: npm test -- --coverage --coverageReporters=lcov,text
+              run: npm test -- --coverage --coverageReporters=lcov --coverageReporters=text
             - name: SonarQube Scan
               uses: SonarSource/sonarqube-scan-action@v5
               env:
