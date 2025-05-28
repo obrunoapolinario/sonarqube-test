@@ -1,6 +1,6 @@
 // Função que não é usada
 function unusedFunction() {
-    console.log("Isso nunca será chamado.")
+    console.log("Isso nunca será chamado.1")
 }
 
 // Duplicação de código (blocos quase idênticos)
